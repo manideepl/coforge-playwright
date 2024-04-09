@@ -29,7 +29,7 @@ export function exercise1():number{
 export function exercise2(prefix:string, suffix:string):string{
 
     // Implement code as per spec
-    return "";
+    return 'prefix+"Hello"+suffix';
 
 }
 /**
