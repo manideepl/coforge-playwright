@@ -10,7 +10,7 @@ const test_1 = require("@playwright/test");
  * See https://playwright.dev/docs/test-configuration.
  */
 exports.default = (0, test_1.defineConfig)({
-    testDir: './tests',
+    testDir: './src',
     /* Run tests in files in parallel */
     fullyParallel: true,
     /* Fail the build on CI if you accidentally left test.only in the source code. */
