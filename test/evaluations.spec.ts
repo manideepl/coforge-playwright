@@ -1,4 +1,4 @@
-// tests/calculator.spec.tx
+[10:42 am] Thaninki Srinivasu
 import { assert, should } from "chai";
 import { add, exercise1,exercise2, exercise3, exercise4, exercise5 } from "../src/exercises"
 should();
