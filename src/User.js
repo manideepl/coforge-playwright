@@ -1,11 +1,14 @@
 "use strict";
-class Model {
-    constructor(id, username, firstName, lastName) {
+class User {
+    constructor(id, username, email, password, firstName, lastName, phone) {
         this.id = id;
         this.username = username;
+        this.email = email;
+        this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.phone = phone;
     }
 }
-const UserModel = new Model(94, "manideep", "manideep", "lanka");
-console.log(UserModel);
+const ModelUser = new User(85, "manideep", "manideeps.lanka225@gmail.com", "Saideep@99", "mani", "deep", 8143650456);
+console.log(ModelUser);

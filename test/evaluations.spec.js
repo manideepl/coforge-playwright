@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// tests/calculator.spec.tx
+[10, 42, am];
+Thaninki;
+Srinivasu;
 const chai_1 = require("chai");
 const exercises_1 = require("../src/exercises");
 (0, chai_1.should)();
